@@ -4,9 +4,10 @@ const pacientsList = require("../../dados/pacientes.json");
 const geral = require("../Modules/geral");
 const indiceCpfDate = require("../Modules/indiceCpfDate");
 const dataGeral = require("../Modules/dataGeral");
-const CpfIndiceRecent = require("../Modules/CpfIndiceRecent");
-const CpfRecent = require("../Modules/CpfRecent");
+const CpfIndiceRecent = require("../Modules/cpfIndiceRecent");
+const CpfRecent = require("../Modules/cpfRecent");
 const indiceFilter = require("../Modules/indiceFilter");
+
 
 // Middleware para verificar parâmetros obrigatórios
 function checkRequiredParameters(requiredParams) {

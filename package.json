@@ -4,7 +4,7 @@
   "description": "**Sobre o desafio**",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/app.js"
+    "start": "nodemon ./app.js"
   },
   "author": "Israel Feitosa da Silva",
   "license": "ISC",

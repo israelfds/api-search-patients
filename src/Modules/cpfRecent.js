@@ -1,4 +1,4 @@
-const CpfIndiceRecent = require("./CpfIndiceRecent.js");
+const CpfIndiceRecent = require("./cpfIndiceRecent.js");
 const geral = require("./geral.js");
 const pacientsList = require("../../dados/pacientes.json");
 
